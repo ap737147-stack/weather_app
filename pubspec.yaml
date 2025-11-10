@@ -1,0 +1,47 @@
+name: weather_app
+description: A Flutter weather application with location search functionality.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP requests for API calls
+  http: ^1.1.0
+  
+  # Location services
+  geolocator: ^10.1.0
+  
+  # Permission handling
+  permission_handler: ^11.0.1
+  
+  # UI components (optional but recommended)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add assets if you want to include custom icons or images
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  
+  # Uncomment if you want to add custom fonts
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
