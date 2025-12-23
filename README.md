@@ -224,13 +224,10 @@ Contributions are welcome! Please follow these steps:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
-**Github-ap737147-stack**
+**Alok Pandey**
 - GitHub: [@ap737147-stack](https://github.com/ap737147-stack)
 - Email: ap737147@gmail.com
 
