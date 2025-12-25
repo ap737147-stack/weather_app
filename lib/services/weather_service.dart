@@ -46,7 +46,6 @@ class WeatherService {
     return [];
   }
 
-  // Mock hourly forecast - in production, use forecast API
   List<HourlyForecast> getHourlyForecast(double currentTemp) {
     final now = DateTime.now();
     return List.generate(6, (index) {
